@@ -21,13 +21,13 @@
 #1) Create and Assign a type float variable called fltOne the value 2 (3)
 fltOne = float(2)
 
-############### ############### ############### ############### ############### ############### ############### ############### ###############
+
 
 #2) Create and Assign a type float variable called fltTwo the value 200 (3)
 
 fltTwo = float(200)
 
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 
 
 #3) Create and Assign a type float variable called fltThree with the product of fltTwo and fltOne(3)
@@ -35,27 +35,27 @@ fltTwo = float(200)
 fltThree = float(fltOne * fltTwo)
 # print(fltThree)
 
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 
 #4) Create and assign a variable called stringOne with the value "The product of fltOne and fltTwo = "(3)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 stringOne = "The product of fltOne and fltTwo = "
 
 
 #5) On the console, output stringOne and fltThree (in that order) (3)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 print(stringOne, fltThree)
 
 #6) increment fltOne  (3)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 fltOne += 1
 
 #7)  prompt the user to provide an input to fltFour with the message "Please provide another number for fltFour". Ensure a float is given (4)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 fltFour = float(input("Please provide another number for fltFour. Ensure a float is given: "))
 
 #8) on the console, output the product of fltThree and floatFour with a suitable message showing this is task 8(3) 
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 print("The product of fltThree and fltFour is = ", fltThree + fltFour)
 
 #####################################################
@@ -65,7 +65,7 @@ print("The product of fltThree and fltFour is = ", fltThree + fltFour)
 #If the user types "Hello", respond by outputting to the console "Good greeting"
 #If the user types "hello", respond by outputting to the console "Good greeting, but capital letter?"
 #If the user types anything else, respond by outputting to the console "Not what I was expecting" (10)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 greeting = input("Good day human: ")
 
 if greeting == "Hello":
@@ -78,7 +78,7 @@ else:
 
 
 #10) create a list called listOfStrings (4)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 listOfStrings = []
 
 
@@ -136,7 +136,7 @@ calcForc(float(input("How much Mass? ")), float(input("How much Acceleration? ")
 #It will return the word with all letters in the same case except 'a' which it will convert to 'A'
 #For example, caseChanger("case") would return "cAse". another example caseChanger("casE") returns "cAsE"
 #Write a suitable print statement to show this working (15)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 
 def caseChanger(word):
     for letter in word:
@@ -153,12 +153,12 @@ caseChanger(input("What word do you want to get A'd? "))
 
 #14 a) Create a list that represents a set of cars. The list should contain the following
 #cars: Focus,Up,Golf,Robin,Fiesta,Astra,Tiguan,Leaf (4 marks)
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+ 
 cars = ["Focus", "Up", "Golf", "Robin", "Fiesta", "Astra", "Tiguan", "Leaf"]
 
 #14 part b) use a method to order the cars so that they are in alphabetical order (3 marks)
 #print this to the screen
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 cars.sort()
 print(cars)
 
@@ -166,7 +166,7 @@ print(cars)
 #15) Populate a tuple that represents top speeds of the cars (4 marks)
 #These are the respective speeds for the alphabetically ordered car list
 # 120,100,125,126,78,40,105,93
-############### ############### ############### ############### ############### ############### ############### ############### ############### 
+
 speeds = (120, 100, 125, 126, 78, 40, 105, 93)
 
 
